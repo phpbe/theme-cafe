@@ -1,0 +1,25 @@
+{
+  "name": "be/theme-cafe",
+  "type": "library",
+  "description": "咖啡店主题",
+  "keywords": [
+    "咖啡店",
+    "主题"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "1024i team",
+      "email": "1024i@1024i.com",
+      "homepage": "https://www.1024i.com/team"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Be\\Theme\\Cafe\\": "src/"
+    }
+  },
+  "require": {
+    "be/be": "*"
+  }
+}
