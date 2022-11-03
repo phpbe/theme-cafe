@@ -20,6 +20,9 @@
     }
   },
   "require": {
-    "be/be": "*"
+    "be/be": "*",
+    "be/app-cms": "dev-master",
+    "be/app-company": "dev-main",
+    "be/app-shopfai": "dev-main"
   }
 }
