@@ -17,7 +17,7 @@ class Theme
      * @BeConfigItem("主色调",
      *     driver="FormItemColorPicker")
      */
-    public $minorColor = '#333';
+    public $minorColor = '#C7A07B';
 
     /**
      * @BeConfigItem("字体大小",

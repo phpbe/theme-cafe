@@ -1,40 +1,27 @@
 <?php
 
-namespace Be\Theme\Cafe\Config\Page\Cms\Article;
+namespace Be\Theme\Cafe\Config\Page\Company\Home;
 
-class home
+class index
 {
 
-    public int $west = 0;
-    public int $center = 66;
-    public int $east = 34;
+    public int $middle = 1;
 
-    public array $northSections = [
+    public array $middleSections = [
         [
-            'name' => 'Theme.Cafe.Header',
+            'name' => 'Theme.Cafe.Counter',
         ],
         [
-            'name' => 'Theme.Cafe.HeaderSubTitle',
+            'name' => 'Theme.Cafe.TeamTop',
+        ],
+        [
+            'name' => 'Theme.Cafe.Video',
+        ],
+        [
+            'name' => 'Theme.Cafe.Partners',
         ],
     ];
 
-    public array $centerSections = [
-        [
-            'name' => 'Theme.Cafe.AppCmsArticles',
-        ],
-    ];
-
-    public array $eastSections = [
-        [
-            'name' => 'Theme.Cafe.AppCmsSearch',
-        ],
-        [
-            'name' => 'Theme.Cafe.AppCmsLatest',
-        ],
-        [
-            'name' => 'Theme.Cafe.AppCmsTags',
-        ],
-    ];
 
     /**
      * @BeConfigItem("HEAD头标题",
@@ -42,7 +29,7 @@ class home
      *     driver = "FormItemInput"
      * )
      */
-    public string $title = 'Blog';
+    public string $title = 'About Us';
 
     /**
      * @BeConfigItem("Meta描述",
@@ -58,7 +45,7 @@ class home
      *     driver = "FormItemInput"
      * )
      */
-    public string $metaKeywords = 'Blog';
+    public string $metaKeywords = 'About Us';
 
     /**
      * @BeConfigItem("页面标题",
